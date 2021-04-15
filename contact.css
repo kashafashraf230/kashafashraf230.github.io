@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #322222;
+}
+.heading{
+    position: absolute;
+    left: 19px;
+    top: 22px;
+    font-size: 43px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    color: #ffeb3b;
+
+}
+.form{
+    display: inline-grid;
+    border: 10px solid white;
+    background-color: blanchedalmond;
+    position: absolute;
+    top:51px;
+    left: 273px;
+    bottom: 20px;
+    right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 107px 172px 83px 149px;
+    border-radius: 8px;
+     font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+     width: 700px;
+
+}
+.btn button{
+    position: absolute;
+    top: 537px;
+    left: 559px;
+    padding: 4px 5px 4px 5px;
+    margin: 0px 0px 0px 0px;
+    width: 119px;
+    cursor: pointer;
+    color: white;
+    background-color: #322222;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.btn button:hover{
+    background-color: #c3baad;
+    text-decoration: underline;
+}
+/* #style{
+    padding: 0px 0px 0px 0px;
+    border-radius: 2px;
+} */
+input#Full\ Name { 
+padding: 9px 44px 8px 113px;
+border-radius: 4px;
+}
+input#Email{
+    padding: 9px 44px 8px 117px;
+border-radius: 4px;
+}
+input#Locality{
+    padding: 9px 44px 8px 118px;
+    border-radius: 4px;
+}
+input#age{
+    padding: 9px 44px 8px 121px;
+    border-radius: 4px;
+}
+input#gender{
+    padding: 9px 44px 8px 122px;
+    border-radius: 4px;
+}
+.join{
+    position: absolute;
+    left: 264px;
+    top: 26px;
+    font-size: 43px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    color: #ffeb3b;
+    background-color: black;
+    padding: 0px 15px 0px 15px;
+    border-radius: 14px;
+}

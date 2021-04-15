@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    background-color:#322222;
+}
+body{
+    background-image: url('fitness.jpg');
+    margin: 0px -4px -3px 487px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.heading h1{
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 62px;
+    background-color:#6d6458;
+    padding: 0px 20px;
+    border-radius: 4px;
+}
+.para p{
+    position: absolute;
+    left: 165px;
+    top: 136px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b1a00e;
+    border-radius: 3px;
+    padding:3px 20px;
+
+}
+.para2 p{
+position: absolute;
+top: 214px;
+left: 100px;
+/* border: 2px solid white; */
+display: inline-block;
+width: 280px;
+text-align: justify;
+/* height: 10px; */
+padding: 0px 0px 36px 8px;
+font-size: 16px;
+
+}
+.tour button{
+    position: absolute;
+    top: 508px;
+    left: 138px;
+    background-color:#b1a00e ;
+    padding: 8px 27px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tour button:hover{
+    background-color: darkkhaki;
+    text-decoration: underline;
+}
+.header{
+    position: absolute;
+    left: 17px;
+    top: 16px;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    color: #ffeb3b;
+}

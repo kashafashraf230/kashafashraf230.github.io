@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* margin: 50px 50px;
+    padding: 0px; */
+    background-image: url('fitness 2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 700px;
+color:#ffeb3b;
+font-family: 'Poppins', sans-serif;
+background-color: black;
+}
+.mainlogo{
+    display: inline-block;
+    text-decoration: underline;
+    /* border: 2px solid white; */
+    font-size:32px;
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    position: sticky;
+    font-family: 'Dancing Script', cursive;
+}
+.mainlogo img{
+    width: 100px;
+    filter: invert(100%);
+    position: sticky;
+
+}
+.navbar {
+    /* border: 2px solid white; */
+    position: absolute;
+    right: 23px;
+    top: 0px;
+}
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color:#ffeb3b;
+    padding-right: 10px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+    
+    .navbar li{
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+}
+.navbar li :hover{
+    /* color: rgb(23, 154, 187); */
+    text-decoration: underline;
+    background-color: rgb(168, 157, 168);
+}
+.content h1 {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    top: 173px;
+    left: 92px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 29px;
+    background-color: darkslategray;
+}
+.container{
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 259px;
+    left: 114px;
+    font-size: 39px;
+    font-style: italic;
+    color: #ff9800;
+    background-color: #0a1919;
+  font-family: 'Orelega One', cursive;
+}
+.btn {
+    position: absolute;
+    top: 495px;
+    left: 165px;
+padding: 6px;
+width: 185px;
+cursor: pointer;
+background-color: black;
+font-size: 22px;
+color: white;
+}
